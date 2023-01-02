@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    background: hsl(180, 52%, 96%);
+}
+
+header img{
+    background-color: hsl(180, 29%, 50%);
+    position: relative;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    background: #fff;
+    height: 65px;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 10px hsl(180, 8%, 52%);
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.filter .filtered {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+}
+
+.filtered .filtered-tags {
+    text-align: center;
+    background: hsl(180, 31%, 95%);
+    color: hsl(180, 29%, 50%);
+    border-radius: 5px;
+    font-weight: 700;   
+}
+
+.filtered .tag-del-btn {
+    background: hsl(180, 29%, 50%);
+    color: hsl(180, 31%, 95%);
+}
+
+.filtered .tag-del-btn:hover {
+    cursor: pointer;
+    background: hsl(180, 14%, 20%);
+}
+
+.filtered-tags, .tag-del-btn {
+    padding: 10px;
+    text-align: center;
+}
+
+.filter .clear-btn {
+    width: 10%;
+    display: flex;
+    justify-content: end;
+    color: hsl(180, 29%, 50%);
+}
+
+.clear-btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.job-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.job-container .job-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px hsl(180, 8%, 52%);
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+}
+
+.feature {
+    border-left: 5px solid hsl(180, 29%, 50%);
+}
+
+.company-img img{
+    margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    width: 50%;
+}
+.content .upper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.content .bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.upper .company-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+}
+
+
+.tag-1 , .tag-2 {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 6px;
+    color: hsl(180, 52%, 96%);
+    align-items: center;
+}
+
+.tag-1 {
+    background: hsl(180, 29%, 50%);
+}
+
+.tag-2 {
+    background: hsl(180, 8%, 52%);
+}
+
+.middle .job-title {
+    font-weight: 700;
+    color: hsl(180, 14%, 20%);
+}
+
+.job-title:hover {
+    cursor: pointer;
+    color: hsl(180, 29%, 50%);
+}
+
+.bottom {
+    color: hsl(180, 8%, 52%);
+    gap: 1rem;
+}
+
+.job-tag-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    row-gap: 5px;
+}
+
+.job-tag {
+    text-align: center;
+    background: hsl(180, 31%, 95%);
+    color: hsl(180, 29%, 50%);
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto 10px;
+    font-weight: 700;   
+}
+
+.job-tag:hover {
+    background: hsl(180, 29%, 50%);
+    color: hsl(180, 31%, 95%);
+    cursor: pointer;
+}
+
